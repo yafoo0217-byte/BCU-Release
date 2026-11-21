@@ -1,44 +1,44 @@
 {
-  "tag_name": "v0.91.0",
-  "name": "v0.91.0",
-  "body": "## 첫 번째 자동 업데이트 배포판이에요! (Stage VS v0.91.0)\n\n### BCU 실행기\n- 켤 때 새 버전을 확인하고, 바뀐 점을 보여 준 뒤 받아요.\n- 일반 모드 / VS 모드를 골라서 켜요. (한 폴더에서 둘 다 써요)\n- 이전 버전으로 되돌리기, 오류 로그 도우미, 패치 지킴이(공식 업데이트 프로그램이 덮어쓰면 복구)\n\n### Stage VS v0.91.0: 일본판 16.0 스테이지 '룸바 술집', 적마다 배율\n- vs-groups.txt 묶음에서 적마다 배율을 쓸 수 있어요: 이름 = 적46*14.4, 적552*7.2, 적23\n- 내장 묶음 '룸바 술집'이 있어요. 적이 한꺼번에 나와 싸워요.\n- 앱에 없는 적 794(미니 허리케인 사이클론)는 적 236의 그림을 0.6배로 줄여서 넣었어요.\n\n### 일반 모드\n- 시작할 때 언어 파일 때문에 멈추던 오류를 막았어요.\n",
-  "published_at": "2026-11-21T09:40:55Z",
-  "commit": "ec48a837df664285aaf5639270a29e8f95d112eb",
+  "tag_name": "v0.91.0-1",
+  "name": "v0.91.0-1",
+  "body": "## 실행기 v1.0.1: 파일을 못 바꾸던 문제 고침\n\n### 고친 것\n- BCU를 안 켰는데도 \"BCU-0-5-8-9.jar 파일을 바꿀 수 없어요\"가 나오던 문제를 고쳤어요.\n  - OneDrive 동기화나 백신이 파일을 잠깐 붙잡아도 여러 번 다시 시도해요.\n  - 읽기 전용 파일을 풀고, 옛 파일을 옆으로 치우는 방법까지 써요.\n- 그래도 안 되면 진짜 이유를 알려 줘요. (BCU가 정말 켜져 있는지, OneDrive 폴더인지, 윈도우가 알려 준 오류)\n- BCU 폴더가 OneDrive 안에 있으면 처음 한 번 안내해요.\n\n### VS 모드\n- 바뀐 것 없어요. (Stage VS v0.91.0 그대로)\n",
+  "published_at": "2026-11-21T09:54:17Z",
+  "commit": "c7061a5b40474729f01b6799a849cdc8b4d96028",
   "assets": [
     {
       "name": "BCU-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/BCU-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/BCU-0-5-8-9.jar"
     },
     {
       "name": "BCU-Launcher-setup.zip",
-      "size": 45125,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/BCU-Launcher-setup.zip"
+      "size": 48868,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 581,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
-      "size": 46400,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/BCU-Launcher.jar"
+      "size": 50203,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/BCU-Launcher.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
       "size": 2272771,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/BCU-VS-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "lang-fr-ComboName.txt",
       "size": 5322,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/lang-fr-ComboName.txt"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/lang-fr-ComboName.txt"
     },
     {
       "name": "manifest.json",
-      "size": 1087,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ec48a837df664285aaf5639270a29e8f95d112eb/releases/0.91.0/manifest.json"
+      "size": 1089,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c7061a5b40474729f01b6799a849cdc8b4d96028/releases/0.91.0-1/manifest.json"
     }
   ]
 }
