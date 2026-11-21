@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.97.3",
-  "name": "v0.97.3",
-  "body": "## Stage VS v0.97.3: 난투가 안 끝나던 것\n\n사용자 녹화(2분 23초): 오른쪽 팀 표시가 `1/73`, `2/73`인데 필드에는 오른쪽 유닛이 하나도 없고, 왼쪽 팀이 성 체력 10억짜리 성만 90초 넘게 때렸어요(전투가 안 끝남). 아직 '남은' 것으로 세는 유닛이 필드에 없었어요(원인은 기록으로 확인 예정).\n- ① **멈춤 방지**: 한 팀이 남은 유닛이 있는데 **20초 동안 필드에 살아 있는 유닛이 하나도 없으면** 그 유닛들을 쓰러진 것으로 세요(좀비가 부활을 기다리는 시간보다 넉넉해요).\n- ② **원인 기록**: 그때 남아 있던 유닛(이름, 위치, 체력, 죽음 상태, 부활 대기, 땅속, 전투에 있는지)을 녹화의 **출현기록**과 `logs/vs-debug.txt`에 적어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T15:13:56Z",
-  "commit": "a601769f7cb2f10a761bf291b267a9ff01bff7d3",
+  "tag_name": "v0.97.4",
+  "name": "v0.97.4",
+  "body": "## Stage VS v0.97.4: v0.97.3 되돌림\n\n사용자 확인: 오래 안 끝난 건 버그가 아니라 **작은 메탈 사이클론**(체력 77,777, 메탈이라 대미지 1)이 살아 있었던 것(독으로 잡음). 사용자: \"승패는 그냥 둬줘\" → v0.97.3의 '20초 동안 필드에 없으면 쓰러짐으로 세기'를 없앴어요. 승패는 원래 규칙 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T15:16:38Z",
+  "commit": "538f67784b26aa29df205d36850ba29a3d956ac2",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2298137,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/BCU-VS-0-5-8-9.jar"
+      "size": 2297001,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a601769f7cb2f10a761bf291b267a9ff01bff7d3/releases/0.97.3/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/manifest.json"
     }
   ]
 }
