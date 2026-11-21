@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.93.1",
-  "name": "v0.93.1",
-  "body": "## Stage VS v0.93.1: 녹화로 찾은 룸바 술집 버그 2개\n\n사용자 녹화(v0.93.0, 출현기록 2분 14초)를 battlecats-db와 대조했어요. 성 체력 99% 전의 적 4줄(처음 시간·간격·횟수)과 보스 구간 시작(98.22%)은 원작과 맞았어요.\n- ① **미니 허리케인 사이클론 대신 멍뭉이(0번)가 240%로 나왔어요** — 적 목록도 없는 번호(792)를 물으면 0번을 돌려줘서 '792번이 있다'고 착각했어요(v0.92.1의 맵과 같은 함정) → `getRaw`로 확인해요.\n- ② **보스 구간의 6줄이 1328~1333f에 한꺼번에 나왔어요** — 성 조건이 있는 줄의 '처음 시간'을 전투 시작부터 셌어요 → 성이 맞은 뒤부터 세요(BCU의 공식 데이터 표시와 같은 방식). 이제 보스·베헤모스·닥터 K.O.는 바로, 야옹마·미니 사이클론은 400f(약 13초) 뒤, 마지막 닥터 K.O.는 1000f(약 33초) 뒤에 나와요(battlecats-db의 초登場F를 '성이 맞은 뒤'로 본 제 판단이에요).\n- ③ 출현기록의 '필드의 적'에 고양이까지 세던 것을 적만 세요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T11:11:16Z",
-  "commit": "b626c1fe032543e05c9b3dd89cbaa9571d0aacfc",
+  "tag_name": "v0.93.2",
+  "name": "v0.93.2",
+  "body": "## Stage VS v0.93.2: 16.0 스테이지 이름 옆에 일본어 이름\n\n사용자 요청. 한국판에는 아직 없는 스테이지라 한국어 이름은 임시 번역이에요. 그래서 `룸바 술집 (ルンバ酒場)`처럼 원래 이름을 옆에 붙였어요. 맵 이름은 `댄싱 해방구 (ダンシング解放区, 일본판 16.0)`. 댓글로 만들기에서는 `룸바 술집`도, `ルンバ酒場`도 그대로 찾아요(괄호 안이 일본어인 스테이지만). 한국판 공식 데이터가 오면 공식 맵·이름으로 자동으로 바뀌어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T11:52:18Z",
+  "commit": "a0fd6835bddf7961f9770081ccc86300cbebc220",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2286126,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/BCU-VS-0-5-8-9.jar"
+      "size": 2286475,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b626c1fe032543e05c9b3dd89cbaa9571d0aacfc/releases/0.93.1/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/manifest.json"
     }
   ]
 }
