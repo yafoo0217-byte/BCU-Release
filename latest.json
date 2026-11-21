@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.95.1",
-  "name": "v0.95.1",
-  "body": "## Stage VS v0.95.1: 스토리 보스는 최종 보스만\n\n사용자 스크린샷(v0.95.0): `세계편 보스 : 적 36종`, 미래편 63종처럼 스테이지 보스가 전부 들어갔어요. 이제 사용자가 준 **최종 보스만**: 세계편 18 대갈이군·23 악의제왕 야옹마·24 맴매 선생, 미래편 176 파괴생물 쿠오리넨·181 반역의 발키리·212 폭주한 고양이무트, 우주편 367 신·419 신(진심)·446 파이널 기가 그랜드 신, 마계편 570 신관 마몬·571 대신관 마몬·572 파괴신 자간드. 각 보스는 나오는 장에서 가장 센 배율로 한 번. **세계편은 1장 세기(1배) 하나씩**(사용자 선택, 1·2·3장에 모두 나와서). 장을 고르려면 `세계편 보스(3장)`(4배), `(노보물, 2장)`처럼 써요. 데이터에서 못 찾은 보스는 알림에 적어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T13:09:18Z",
-  "commit": "c2fcbcde59f74a4d2ae1de970481debf3abe540b",
+  "tag_name": "v0.95.2",
+  "name": "v0.95.2",
+  "body": "## Stage VS v0.95.2: 스토리 데이터에 없는 보스\n\n사용자 스크린샷(v0.95.1): 마계편 보스가 2종 — 파괴신 자간드(572)는 한 번만 깨는 EX 스테이지에만 나와서 스토리 데이터에 없어요. 이제 스토리에서 못 찾은 보스는 **게임 데이터 전체에서 그 적이 보스로 나오는 스테이지**를 찾아 그 배율(가장 센 것)로 넣고 알림에 적어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T13:18:07Z",
+  "commit": "497b76eab0d5b91cde9b7d76ba0e3d8a652ca036",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2293305,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/BCU-VS-0-5-8-9.jar"
+      "size": 2293929,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c2fcbcde59f74a4d2ae1de970481debf3abe540b/releases/0.95.1/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/manifest.json"
     }
   ]
 }
