@@ -20,8 +20,9 @@ BCU(0.5.8.9)용 **Stage VS 모드**와 오류 수정 패치를 자동으로 받�
 |---|---|---|
 | `BCU-Launcher-setup.zip` | - | 처음 설치용 (실행기 + bat) |
 | `BCU-VS-0-5-8-9.jar` | BCU 폴더 | VS 모드 |
-| `BCU-0-5-8-9.jar` | BCU 폴더 | 일반 모드 (언어 오류 보호 장치 포함) |
-| `lang-fr-ComboName.txt` | `assets/lang/fr/ComboName.txt` | 깨진 줄을 고친 언어 파일 |
+| `BCU-Normal-0-5-8-9.jar` | BCU 폴더 | 일반 모드 (언어 오류 보호 장치 포함) |
+
+> 원래 있던 `BCU-0-5-8-9.jar`는 실행기가 건드리지 않아요.
 | `manifest.json` | - | 실행기가 읽는 파일 목록과 지문 |
 
 - 실행기는 `latest.json`을 읽어서 새 버전을 알아채요.
