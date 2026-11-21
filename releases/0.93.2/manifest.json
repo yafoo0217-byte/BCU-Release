@@ -1,5 +1,5 @@
 {
-  "version": "0.91.1",
+  "version": "0.93.2",
   "bcuVersion": "0.5.8.9",
   "normalJar": "BCU-Normal-0-5-8-9.jar",
   "vsJar": "BCU-VS-0-5-8-9.jar",
@@ -19,14 +19,14 @@
     {
       "path": "BCU-VS-0-5-8-9.jar",
       "asset": "BCU-VS-0-5-8-9.jar",
-      "sha256": "cd1ddb3cdfd3917d3a1ae762e210bd8eea6a45dd77dad15f26f7e4f3e7325f00",
-      "size": 2273524
+      "sha256": "9c78d473aecc2df33bad660212e0191cc346990365b4176b9cae472b3de4c197",
+      "size": 2286475
     },
     {
       "path": "BCU 실행기.bat",
       "asset": "BCU-Launcher.bat",
-      "sha256": "9f325305fcfa2a7e84c1082bf1ff064d9a23ca62e5b0dbf899dd7f5cfc04784f",
-      "size": 581
+      "sha256": "d3435b62c2c6cf75b8e73fa605c495642d9f21b48356e669dfc6694b6004212d",
+      "size": 797
     }
   ]
 }
