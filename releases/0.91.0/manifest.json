@@ -25,8 +25,8 @@
     {
       "path": "BCU-Launcher.jar",
       "asset": "BCU-Launcher.jar",
-      "sha256": "4559964a8d6ca4b45a8e6ac3d5bfcfc325eb5adee1b655fc6997c110cf233bb4",
-      "size": 46349
+      "sha256": "168ce363d1e7315afebd09d285b1fb3f2750c5d5f5670929e67a203e4742fe12",
+      "size": 46400
     },
     {
       "path": "BCU 실행기.bat",
