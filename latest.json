@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.94.0",
-  "name": "v0.94.0",
-  "body": "## Stage VS v0.94.0: 원작 분위기: 부서짐 기본 꺼짐\n\n사용자 결정(원작의 분위기를 유지). 죽으면 날아가 눕는 `부서짐` 연출이 이제 **기본으로 꺼져 있어요**(원작에는 없어요). 예전 버전에서 저장된 '켜짐'은 이번에 한 번만 꺼짐으로 바뀌고, 그다음부터는 고른 대로 기억해요(`vs-scatter.txt`에 `on v2`/`off v2`). 전투 화면 왼쪽 버튼으로 언제든 켤 수 있어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T11:55:44Z",
-  "commit": "0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a",
+  "tag_name": "v0.95.0",
+  "name": "v0.95.0",
+  "body": "## Stage VS v0.95.0: 댓글로 만들기: 보스 묶음 이름\n\n사용자 댓글 `모든 스토리(세계편,미래편,우주편,마계편,구레,신레,레제로) 보스(노보물) VS 모든 광란, 대광란, 세뇌, 꼬맹이, 사이클론, 강림, 대강림 보스`를 읽을 수 있게 했어요.\n- ① **목록 풀기**: `모든 스토리(세계편, 미래편, 구레) 보스(노보물)` → `세계편 보스(노보물), 미래편 보스(노보물), 구레 보스(노보물)`.\n- ② **모든·보스 나눠 붙이기**: `모든 광란, 대광란, 강림 보스` → `모든 광란 보스, 모든 대광란 보스, 모든 강림 보스`.\n- ③ **이름 묶음**(사용자 번호, BCU 번호): 광란 75~83, 대광란 242~250, 세뇌(=극악, 한국어 데이터 이름) 660~668, 꼬맹이 322~330, 사악 561~563, 극난도 강림 232·317·257·267·271·431, 초극난도 강림 479·491·492·493·495·506·511·514·535·573·585, 대강림(신난도) 642·653·714·743·769, `강림` = 극난도+초극난도.\n- ④ **스토리 보스**: 세계편(1·2·3장 = 100/150/400%), 미래편 1~3장, 우주편 1~3장, 마계편의 보스를 장마다 그 배율로(좀비·침공 맵은 빼요).\n- ⑤ **(노보물)**: 보물이 하나도 없는 세기 — 에이리언 7배, 스타 에이리언 16배(BCU의 보물 계산식, 내 보물 설정을 빼고 맞춰요).\n- ⑥ **겹치는 보스는 한 번만**: 같은 적·같은 배율이 팀 안 여러 묶음에 있으면 한 마리만(배율이 다르면 따로).\n- ⑦ `사이클론 보스`처럼 묶음 이름이 아닌 것은 그 이름이 들어간 적들이에요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T12:31:53Z",
+  "commit": "b8b30b42eba11b703a6f1c33dd2526871a0b5a82",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2286652,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-VS-0-5-8-9.jar"
+      "size": 2292146,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b8b30b42eba11b703a6f1c33dd2526871a0b5a82/releases/0.95.0/manifest.json"
     }
   ]
 }
