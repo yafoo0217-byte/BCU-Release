@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.98.0",
-  "name": "v0.98.0",
-  "body": "## Stage VS v0.98.0: 애니메이션 고화질 내보내기\n\n애니메이션 보기 화면(유닛·적 등)에 **`고화질 내보내기`** 버튼이 생겼어요. 지금 고른 동작을 **정확히 한 바퀴**만, 작은 미리보기 화면이 아니라 **새로 크게 그려서**(기본 세로 1080, 바꿀 수 있음) `BCU 폴더/img/고화질`에 저장해요.\n- ① **투명 MOV**(PNG 장면, 반투명한 공격 빛까지 투명 그대로 — 캡컷에 바로),\n- ② **키 색 MP4**(동작의 모든 색을 살펴서 **가장 안 쓰인 색**을 배경으로 자동 선택 — 초록 공격도 크로마키에 안 지워져요, 완료 창에 색 이름과 번호),\n- ③ **첫 장면 PNG**. 동작 전체가 들어가는 크기로 잘라서 캐릭터가 영상 안에서 흔들리지 않아요. 반복 횟수(1~20)도 고를 수 있고, 설정의 그리기 품질이 '빠름'이어도 내보내기는 항상 최고 품질이에요. 빛나는(더하기) 부분이 투명 배경 위에서 어둡게 나오던 계산도 내보내기에서는 바르게 고쳤어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T17:16:54Z",
-  "commit": "93752c3b7b899daad7aec2c40086f8f2175832e1",
+  "tag_name": "v0.98.1",
+  "name": "v0.98.1",
+  "body": "## Stage VS v0.98.1: 고화질 내보내기 길이\n\n사용자 확인: 캡컷에서 투명 MOV(PNG 방식)는 잘 되는데, 캡컷은 영상을 원래 길이보다 늘릴 수 없어요. → 내보내기 창에 **`길이(초)`** 칸이 생겼어요(반복 횟수 대신 써도 돼요, 최대 10분). 한 바퀴가 몇 초인지도 보여 줘요. **MOV는 반복해도 그림을 다시 쓰지 않고 첫 바퀴를 가리키기만 해서 용량이 거의 그대로**예요(물범 10초 = 1바퀴와 같은 17MB). MOV는 MP4보다 먼저 끝나요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T17:34:43Z",
+  "commit": "7cdb5b2585cef331e87ac5b53ce00e47f57f673e",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2313375,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/BCU-VS-0-5-8-9.jar"
+      "size": 2314074,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/93752c3b7b899daad7aec2c40086f8f2175832e1/releases/0.98.0/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7cdb5b2585cef331e87ac5b53ce00e47f57f673e/releases/0.98.1/manifest.json"
     }
   ]
 }
