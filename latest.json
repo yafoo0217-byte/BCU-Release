@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.98.3",
-  "name": "v0.98.3",
-  "body": "## Stage VS v0.98.3: 반복한 MOV가 캡컷에 안 나오던 문제\n\n사용자 확인: GIF는 캡컷에 잘 들어가요. 그런데 v0.98.1의 \"반복은 첫 바퀴를 가리키기만 하는\" MOV는 캡컷에서 안 나왔어요. → 반복한 장면도 실제로 다시 저장해요. 그래서 MOV는 길이만큼 용량이 커져요. 계속 반복만 하면 되는 경우에는 GIF가 편해요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T18:02:17Z",
-  "commit": "a74e8d747631edf970c71df81f704558c88d3553",
+  "tag_name": "v0.98.4",
+  "name": "v0.98.4",
+  "body": "## Stage VS v0.98.4: 빛 따로 MP4, 휴대폰 캡컷용\n\n사용자 선택: 699처럼 빛나는(빛을 더하는) 이펙트를 위해 **`빛 따로 MP4`**를 만들어요: 검은 배경에 **빛 부분만** 그려요(게임의 더하기·스크린 빛). 캡컷(휴대폰도)에서 몸 GIF 위에 같은 시간에 올리고 **혼합 모드를 `스크린`**으로 바꾸면 검은색은 사라지고 빛이 게임처럼 더해져요. 빛 파일을 만들면 **GIF에서는 빛을 빼요**(두 번 더해지지 않게, 그리고 GIF는 반투명 빛을 못 그려요). 빛이 없는 동작이면 빛 파일은 안 만들어요. 빛 MP4는 `길이(초)`만큼 반복해요(검은색이 대부분이라 용량이 작아요). 기본 선택은 사용자 선택대로 **GIF, 빛 따로 MP4, 키 색 MP4**(MOV, PNG는 꺼짐).\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T18:09:45Z",
+  "commit": "3440d4eea3505cab15d41044d2c6938a8e1aa0c2",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2320493,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-VS-0-5-8-9.jar"
+      "size": 2321958,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/3440d4eea3505cab15d41044d2c6938a8e1aa0c2/releases/0.98.4/manifest.json"
     }
   ]
 }
