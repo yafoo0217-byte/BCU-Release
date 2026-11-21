@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.98.2",
-  "name": "v0.98.2",
-  "body": "## Stage VS v0.98.2: 고화질 내보내기 GIF\n\n사용자 요청으로 **투명 GIF**도 함께 만들어요(창에서 끌 수 있어요). GIF는 **스스로 계속 반복**해요. 동작 전체에서 실제로 쓰인 색으로 256색 팔레트를 하나 만들어서(장면마다 색이 바뀌어 깜빡이지 않게), 점무늬(디더링) 없이 깔끔한 단색을 유지해요. 초당 30장면(3·3·4/100초)이고, 60fps 설정이어도 GIF는 30장면이에요(GIF는 초당 50장면보다 빠르면 오히려 느려져요). 한계: GIF는 반투명이 없어서 테두리가 조금 거칠고 반투명한 빛 이펙트는 빠져요 — 화질은 MOV가 가장 좋아요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T17:41:00Z",
-  "commit": "8b6fc57ae8a94d8c212ec9780c5863fcf300d100",
+  "tag_name": "v0.98.3",
+  "name": "v0.98.3",
+  "body": "## Stage VS v0.98.3: 반복한 MOV가 캡컷에 안 나오던 문제\n\n사용자 확인: GIF는 캡컷에 잘 들어가요. 그런데 v0.98.1의 \"반복은 첫 바퀴를 가리키기만 하는\" MOV는 캡컷에서 안 나왔어요. → 반복한 장면도 실제로 다시 저장해요. 그래서 MOV는 길이만큼 용량이 커져요. 계속 반복만 하면 되는 경우에는 GIF가 편해요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T18:02:17Z",
+  "commit": "a74e8d747631edf970c71df81f704558c88d3553",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2320419,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/BCU-VS-0-5-8-9.jar"
+      "size": 2320493,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/8b6fc57ae8a94d8c212ec9780c5863fcf300d100/releases/0.98.2/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a74e8d747631edf970c71df81f704558c88d3553/releases/0.98.3/manifest.json"
     }
   ]
 }
