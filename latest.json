@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.95.2",
-  "name": "v0.95.2",
-  "body": "## Stage VS v0.95.2: 스토리 데이터에 없는 보스\n\n사용자 스크린샷(v0.95.1): 마계편 보스가 2종 — 파괴신 자간드(572)는 한 번만 깨는 EX 스테이지에만 나와서 스토리 데이터에 없어요. 이제 스토리에서 못 찾은 보스는 **게임 데이터 전체에서 그 적이 보스로 나오는 스테이지**를 찾아 그 배율(가장 센 것)로 넣고 알림에 적어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T13:18:07Z",
-  "commit": "497b76eab0d5b91cde9b7d76ba0e3d8a652ca036",
+  "tag_name": "v0.96.0",
+  "name": "v0.96.0",
+  "body": "## Stage VS v0.96.0: 필버, 배경 무작위\n\n사용자 결정.\n- ① **우주편 보스에 스타 필리버스터(447)** 포함, `(필버 제외)`로 뺄 수 있어요. `필버` = 447 스타 필리버스터(번호로 찾아요), 레제로의 메타 필리버스터(630)는 `메타필버`. 괄호 하나에 `(노보물, 3장, 필버 제외)`처럼 섞어 써도 돼요.\n- ② **배경**: 댓글에 `배경 123`, `배경은 1041번`처럼 쓰면 그 배경, **없으면 0~271·1000~1103 중 게임에 있는 것에서 무작위**로 골라요(읽은 결과의 규칙에 `배경 : N번 (댓글에 없어서 무작위로 골랐어요)`). 없는 번호를 쓰면 알리고 무작위로 골라요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T13:30:00Z",
+  "commit": "b47910625690b257d305b448f997472647540475",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2293929,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/BCU-VS-0-5-8-9.jar"
+      "size": 2295428,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/497b76eab0d5b91cde9b7d76ba0e3d8a652ca036/releases/0.95.2/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/b47910625690b257d305b448f997472647540475/releases/0.96.0/manifest.json"
     }
   ]
 }
