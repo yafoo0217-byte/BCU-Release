@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.97.10",
-  "name": "v0.97.10",
-  "body": "## Stage VS v0.97.10: 난투 카메라 : 성 앞 싸움\n\n사용자: 1·2번(맞닿은 곳, 싸우는 무리)이 좋은데 성으로 갈수록 구도가 이상해짐. 원인: 싸움이 성 앞까지 밀리면 사실상 성을 때리는데, 카메라는 유닛만 봐서 성이 화면 끝으로 밀리고 성 너머 빈 땅이 넓게 보였어요. 이제 `싸우는 무리`·`양 팀 전체`에서 **싸우는 곳 근처(같은 범위)에 있는 성도 무리의 일부**(성 그림 폭 300)로 세요. 성이 멀면 예전과 같아요. 확대는 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T15:59:22Z",
-  "commit": "ee99fd19d908b8a63f7df00aa8113cd94b061a4e",
+  "tag_name": "v0.97.11",
+  "name": "v0.97.11",
+  "body": "## Stage VS v0.97.11: 난투 카메라 : 좀비 시체는 무시\n\n사용자 제안. 쓰러져서 부활을 기다리는 시체(체력 0)는 카메라가 세지 않아요(맞닿은 곳·싸우는 무리·양 팀 전체 모두). 다시 일어나면 그때부터 다시 세요. 승패 계산은 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T16:04:56Z",
+  "commit": "72e626eb9515a1bfec6440d75efaf0e6733ac173",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2299345,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/BCU-VS-0-5-8-9.jar"
+      "size": 2299355,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 907,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/ee99fd19d908b8a63f7df00aa8113cd94b061a4e/releases/0.97.10/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/72e626eb9515a1bfec6440d75efaf0e6733ac173/releases/0.97.11/manifest.json"
     }
   ]
 }
