@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.97.0",
-  "name": "v0.97.0",
-  "body": "## Stage VS v0.97.0: 카메라 '최전방 자동', 마릿수 표시 겹침\n\n사용자 스크린샷: 카메라가 최전방이 아니라 뒤에 처진 적까지 담는 것처럼 보임 — 원인은 '보이는 폭'이 기본 '전체 맵'이라 맵 전체가 한 화면이었던 것.\n- ① 설정의 카메라 시야에 **`최전방 자동`**(새 기본값): 양쪽 최전방 사이 거리 + 여유(1300)에 맞춰 스스로 확대·축소해요(최소 1600). 위치는 원래처럼 두 최전방의 가운데(난투), 뒤처진 적은 따라가지 않아요. 마우스 휠이나 `[` `]`로 직접 확대하면 그때부터 그 크기를 지켜요. 예전 설정의 '전체 맵'은 기본값이었을 뿐이라 한 번만 최전방 자동으로 바뀌어요(설정 화면에서 되돌릴 수 있어요).\n- ② 난투의 팀 마릿수 표시(`27/36`, `6/73`)가 두 군대가 섞이면 겹쳤어요 → 겹치면 둘의 가운데를 기준으로 비켜서 보여요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T14:49:23Z",
-  "commit": "c11cde50057547759d07f0b9d9d09d1bdbca1389",
+  "tag_name": "v0.97.1",
+  "name": "v0.97.1",
+  "body": "## Stage VS v0.97.1: 카메라 확대는 그대로\n\n사용자: \"카메라 확대는 건들지 말고\". v0.97.0의 `최전방 자동` 확대를 없앴어요. 확대는 예전처럼 설정의 카메라 시야(전체 맵이나 숫자)와 휠·`[` `]`로만 바뀌어요. v0.97.0이 '전체 맵'을 '최전방 자동'으로 바꿔 저장한 설정도 '전체 맵'으로 되돌려요. 마릿수 표시 겹침 수정은 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T14:57:00Z",
+  "commit": "482e0ac968408795ba0152c3ab20734e9eef9b90",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2297120,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/BCU-VS-0-5-8-9.jar"
+      "size": 2296622,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/c11cde50057547759d07f0b9d9d09d1bdbca1389/releases/0.97.0/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/482e0ac968408795ba0152c3ab20734e9eef9b90/releases/0.97.1/manifest.json"
     }
   ]
 }
