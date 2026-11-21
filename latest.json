@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.91.0-2",
-  "name": "v0.91.0-2",
-  "body": "## 실행기 v1.0.2: 원래 jar는 건드리지 않아요\n\n### 바뀐 것\n- 폴더에 원래 있던 BCU-0-5-8-9.jar는 이제 건드리지 않아요. (VS jar로 덮어써 쓰고 있었을 수 있어서요)\n  - 일반 모드: BCU-Normal-0-5-8-9.jar (언어 오류 보호 장치 포함)\n  - VS 모드: BCU-VS-0-5-8-9.jar\n- 업데이트가 막혔을 때 켜져 있는 BCU를 찾아서 \"끌까요?\"라고 물어봐요.\n- 실행 버튼 글자가 하얀 바탕에 하얗게 나와서 안 보이던 것을 고쳤어요. 마우스를 올리면 진해져요.\n\n### VS 모드\n- 바뀐 것 없어요. (Stage VS v0.91.0 그대로)\n",
-  "published_at": "2026-11-21T10:04:22Z",
-  "commit": "4f1906c8d955450031fdc7f7707d01d900314710",
+  "tag_name": "v0.91.1",
+  "name": "v0.91.1",
+  "body": "## Stage VS v0.91.1: 새 적이 들어오면 진짜로, 미니 사이클론 수치 맞춤\n\n사용자 요청.\n- ① 공식 게임 데이터에 미니 허리케인 사이클론(BCU 792번 = battlecats-db 794번)이 들어오면 대체품 대신 **진짜를 쓰고** \"공식 게임 데이터에 … 들어와서 진짜를 썼어요\"라고 알려요.\n- ② 아직 없을 때의 대체품(허리케인 사이클론 236번 그림 0.6배)이 battlecats-db 수치에 맞게 **체력 0.36배, 공격 0.158배**가 돼요(허리케인 사이클론 750,000/3,666 → 미니 270,000/580). 그래서 룸바 술집의 미니 사이클론은 체력 648,000, 공격 1,392예요(240%).\n- ③ Stage VS 화면 안내 줄 끝에 **[게임 데이터: 적 0~791번]**처럼 지금 데이터가 어디까지인지 나와요. 일본판 16.0 적이 들어오면 '일본판 16.0 적이 들어왔어요!'가 붙어요. 참고: **battlecats-db 번호는 BCU 번호보다 2 커요**(허리케인 사이클론 BCU 236 = db 238).\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T10:26:22Z",
+  "commit": "de76cb9c9c3a52527f5d04b97c177cf559453213",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51673,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 581,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2272771,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/BCU-VS-0-5-8-9.jar"
+      "size": 2273524,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
-      "size": 908,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/4f1906c8d955450031fdc7f7707d01d900314710/releases/0.91.0-2/manifest.json"
+      "size": 906,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/de76cb9c9c3a52527f5d04b97c177cf559453213/releases/0.91.1/manifest.json"
     }
   ]
 }
