@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.96.1",
-  "name": "v0.96.1",
-  "body": "## Stage VS v0.96.1: 노보물은 붙은 묶음만\n\n사용자 결정(A).\n- ① **괄호로 이름에 붙은 `(노보물)`은 그 묶음만**: `세계편 보스(노보물)`, `폭무(노보물)` — 그 적들만 보물 0 세기(에이리언 x7, 스타 에이리언 x16, 내 보물 설정과 상관없이).\n- ② **`노보물`을 따로 쓰거나 맨 앞 괄호(규칙 칸)에 쓰면 예전처럼 전투 전체**(양쪽 팀 보물 0). 둘 다 있으면 전체 규칙만(두 번 곱하지 않아요).\n- ③ **에이리언이 아닌 적에 노보물**: 원작에서도 보물은 에이리언만 바꿔서 세기는 그대로예요. 대신 읽은 결과 알림에 `'광란 보스'의 적은 모두 에이리언이 아니라서 노보물이어도 세기가 그대로예요`처럼 알려 줘요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T13:36:27Z",
-  "commit": "9529f46b633d94458769a32155f5becf7434af47",
+  "tag_name": "v0.96.2",
+  "name": "v0.96.2",
+  "body": "## Stage VS v0.96.2: 적끼리 싸울 때 효과가 속성 때문에 안 걸리던 것\n\n사용자: 적끼리 싸울 때 넉백·느려짐이 안 걸리는 것 같다. 원인: 공격의 효과는 '공격자의 속성 목록'과 맞는 상대에게만 걸리는데(고양이의 '빨간 적에게 느려짐' 규칙), 적이 적을 때리면 그 목록이 **공격한 적 자신의 속성**이라서 **같은 속성의 적에게만** 효과가 걸렸어요(예: 레드 사이클론의 느려짐은 빨간 적에게만). 원작에서 적의 효과는 고양이에게 속성과 상관없이 걸려요 → 이제 VS에서 **적의 효과는 어느 적에게나** 걸려요(맞는 적의 면역·저항은 그대로). 대미지는 원래도 정상이었어요. 참고: 무한 부활 적은 난투 화면 아래 `무한 부활 상한`(기본 3번)과 댓글의 `○○은 부활 N번`으로 정해요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T14:07:45Z",
+  "commit": "539976a0e6db906ec4e4a1bff5b055e2278dec1a",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2296301,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/BCU-VS-0-5-8-9.jar"
+      "size": 2296350,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/9529f46b633d94458769a32155f5becf7434af47/releases/0.96.1/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/539976a0e6db906ec4e4a1bff5b055e2278dec1a/releases/0.96.2/manifest.json"
     }
   ]
 }
