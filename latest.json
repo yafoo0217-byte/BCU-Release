@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.92.1",
-  "name": "v0.92.1",
-  "body": "## Stage VS v0.92.1: 「댄싱 해방구」가 안 보이던 것\n\n사용자 로그(v0.92.0): `I/JpStages | the game data has the map ND 37 : the official stages are used`인데 레전드 스토리 0에는 맵이 37개(0~36번)뿐이었어요. 원인: BCU의 맵 목록은 **없는 번호를 물으면 0번 맵을 돌려줘요**(목록 순서용 `get`). 그래서 \"37번 맵이 이미 있다\"고 잘못 판단했어요. → 자리를 그대로 보는 `getRaw`로 확인해요. 그리고 새 데이터에 37번 맵이 **스테이지 없이** 들어 있으면(화면에 안 보여요) 그 맵에 6개 스테이지를 채워요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T10:44:15Z",
-  "commit": "e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1",
+  "tag_name": "v0.93.0",
+  "name": "v0.93.0",
+  "body": "## Stage VS v0.93.0: 전투 녹화\n\n사용자 요청(보내는 곳의 한계가 30MB). 전투 화면 왼쪽 **● 녹화** 버튼(래그돌 아래)을 누르면 녹화가 시작되고, 버튼에 `■ 0:23 · 4.1MB`처럼 길이와 크기가 나와요. 다시 누르거나 돌아가기를 누르면 저장하고 폴더를 열어 줘요.\n- ① 영상: BCU 폴더의 `녹화/날짜-시간 스테이지이름/녹화-1.mp4` — 전투 화면만, 가로 960, 초당 15장면, **29MB가 되면 녹화-2.mp4로 이어서** 찍어요(파일마다 30MB 아래라서 하나씩 보낼 수 있어요). 게임을 멈추면 녹화도 멈추고, 영상은 게임 속도로 재생돼요.\n- ② **출현기록.txt**: 적이 나올 때마다 한 줄(프레임, 초, 왼쪽/오른쪽, 스테이지, 줄 번호, 적 번호·이름, 체력/공격 배율, 남은 수, 그때 상대 성 체력 %, 보스)과 5초마다 양쪽 성 체력 — 몇 KB라서 같이 보내 주면 원작과 정확히 대조할 수 있어요. 시험: 복잡한 화면 30초를 한 장면도 놓치지 않고 저장(12MB). 창을 닫아도 영상은 재생되게 마무리해요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T10:56:23Z",
+  "commit": "69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2276895,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/BCU-VS-0-5-8-9.jar"
+      "size": 2285950,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/e47b10e4c8252d79eb0dcdc95f43d2bbe8ff9bf1/releases/0.92.1/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/69451c9211b1f8bc1f29847b48d97ba0bbdbb0cb/releases/0.93.0/manifest.json"
     }
   ]
 }
