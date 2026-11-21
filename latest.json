@@ -1,0 +1,43 @@
+{
+  "tag_name": "v0.91.0",
+  "name": "v0.91.0",
+  "body": "## 첫 번째 자동 업데이트 배포판이에요! (Stage VS v0.91.0)\n\n### BCU 실행기\n- 켤 때 새 버전을 확인하고, 바뀐 점을 보여 준 뒤 받아요.\n- 일반 모드 / VS 모드를 골라서 켜요. (한 폴더에서 둘 다 써요)\n- 이전 버전으로 되돌리기, 오류 로그 도우미, 패치 지킴이(공식 업데이트 프로그램이 덮어쓰면 복구)\n\n### Stage VS v0.91.0: 일본판 16.0 스테이지 '룸바 술집', 적마다 배율\n- vs-groups.txt 묶음에서 적마다 배율을 쓸 수 있어요: 이름 = 적46*14.4, 적552*7.2, 적23\n- 내장 묶음 '룸바 술집'이 있어요. 적이 한꺼번에 나와 싸워요.\n- 앱에 없는 적 794(미니 허리케인 사이클론)는 적 236의 그림을 0.6배로 줄여서 넣었어요.\n\n### 일반 모드\n- 시작할 때 언어 파일 때문에 멈추던 오류를 막았어요.\n",
+  "published_at": "2026-11-21T09:39:41Z",
+  "assets": [
+    {
+      "name": "BCU-0-5-8-9.jar",
+      "size": 2009517,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/BCU-0-5-8-9.jar"
+    },
+    {
+      "name": "BCU-Launcher-setup.zip",
+      "size": 45041,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/BCU-Launcher-setup.zip"
+    },
+    {
+      "name": "BCU-Launcher.bat",
+      "size": 581,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/BCU-Launcher.bat"
+    },
+    {
+      "name": "BCU-Launcher.jar",
+      "size": 46304,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/BCU-Launcher.jar"
+    },
+    {
+      "name": "BCU-VS-0-5-8-9.jar",
+      "size": 2272771,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/BCU-VS-0-5-8-9.jar"
+    },
+    {
+      "name": "lang-fr-ComboName.txt",
+      "size": 5322,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/lang-fr-ComboName.txt"
+    },
+    {
+      "name": "manifest.json",
+      "size": 1087,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/main/releases/0.91.0/manifest.json"
+    }
+  ]
+}
