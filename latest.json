@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.97.4",
-  "name": "v0.97.4",
-  "body": "## Stage VS v0.97.4: v0.97.3 되돌림\n\n사용자 확인: 오래 안 끝난 건 버그가 아니라 **작은 메탈 사이클론**(체력 77,777, 메탈이라 대미지 1)이 살아 있었던 것(독으로 잡음). 사용자: \"승패는 그냥 둬줘\" → v0.97.3의 '20초 동안 필드에 없으면 쓰러짐으로 세기'를 없앴어요. 승패는 원래 규칙 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T15:16:38Z",
-  "commit": "538f67784b26aa29df205d36850ba29a3d956ac2",
+  "tag_name": "v0.97.5",
+  "name": "v0.97.5",
+  "body": "## Stage VS v0.97.5: 난투 카메라 : 몸까지 보고 가운데\n\n사용자 스크린샷: 여전히 살짝 왼쪽으로 치우침. 원인: 유닛의 위치는 몸의 맨 앞 한 점이고, 왼쪽 팀 유닛은 몸이 그 점에서 왼쪽(뒤)으로 뻗어 있어요 — 큰 유닛이 많으면 보이는 무리가 왼쪽으로 치우쳐요. 이제 **걷는 자세의 몸 폭**(왼쪽 팀은 점의 왼쪽, 오른쪽 팀은 점의 오른쪽, 한 몸에 최대 500)까지 넣어서 눈에 보이는 무리의 가운데를 화면 중앙에 둬요. 확대는 그대로예요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T15:19:18Z",
+  "commit": "59d44ff3ad5501b7c6371478c4ab7b15daf38b88",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2297001,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/BCU-VS-0-5-8-9.jar"
+      "size": 2297782,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/538f67784b26aa29df205d36850ba29a3d956ac2/releases/0.97.4/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/59d44ff3ad5501b7c6371478c4ab7b15daf38b88/releases/0.97.5/manifest.json"
     }
   ]
 }
