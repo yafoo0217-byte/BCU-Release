@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.93.2",
-  "name": "v0.93.2",
-  "body": "## Stage VS v0.93.2: 16.0 스테이지 이름 옆에 일본어 이름\n\n사용자 요청. 한국판에는 아직 없는 스테이지라 한국어 이름은 임시 번역이에요. 그래서 `룸바 술집 (ルンバ酒場)`처럼 원래 이름을 옆에 붙였어요. 맵 이름은 `댄싱 해방구 (ダンシング解放区, 일본판 16.0)`. 댓글로 만들기에서는 `룸바 술집`도, `ルンバ酒場`도 그대로 찾아요(괄호 안이 일본어인 스테이지만). 한국판 공식 데이터가 오면 공식 맵·이름으로 자동으로 바뀌어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T11:52:18Z",
-  "commit": "a0fd6835bddf7961f9770081ccc86300cbebc220",
+  "tag_name": "v0.94.0",
+  "name": "v0.94.0",
+  "body": "## Stage VS v0.94.0: 원작 분위기: 부서짐 기본 꺼짐\n\n사용자 결정(원작의 분위기를 유지). 죽으면 날아가 눕는 `부서짐` 연출이 이제 **기본으로 꺼져 있어요**(원작에는 없어요). 예전 버전에서 저장된 '켜짐'은 이번에 한 번만 꺼짐으로 바뀌고, 그다음부터는 고른 대로 기억해요(`vs-scatter.txt`에 `on v2`/`off v2`). 전투 화면 왼쪽 버튼으로 언제든 켤 수 있어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-21T11:55:44Z",
+  "commit": "0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2286475,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/BCU-VS-0-5-8-9.jar"
+      "size": 2286652,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/a0fd6835bddf7961f9770081ccc86300cbebc220/releases/0.93.2/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/0e7b0eaf572f0d8da2fe1a2b5defe51a16c2e86a/releases/0.94.0/manifest.json"
     }
   ]
 }
