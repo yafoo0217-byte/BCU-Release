@@ -1,39 +1,39 @@
 {
-  "tag_name": "v0.98.5",
-  "name": "v0.98.5",
-  "body": "## Stage VS v0.98.5: 내보내기에 참고선이 찍히던 문제\n\n설정의 **참고선**이 켜져 있으면 내보낸 영상에 빨간 세로선과 발밑 네모가 같이 그려졌어요(크기도 그만큼 작아졌어요). 이제 내보내기에는 참고선과 고른 부분 표시가 절대 안 들어가요. 699(사용자가 보낸 애니메이션, 빛 부분 38개)로 몸 GIF + 빛 MP4 스크린 합성을 확인했어요.\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
-  "published_at": "2026-11-21T18:20:20Z",
-  "commit": "d25f595aeafb0a60e6145f97e49d85633ccfaa86",
+  "tag_name": "v0.98.6",
+  "name": "v0.98.6",
+  "body": "## Stage VS v0.98.6: 모든 동작 같은 크기, 휴대폰용 zip\n\n사용자 요청: 공격·대기 등의 크기 비율이 같아야 해요. → 내보내기 창의 **`모든 동작을 같은 크기·같은 자리로`**(기본 켬): 캐릭터의 모든 동작을 한 번 재서(그 뒤로는 기억) 같은 크기와 발 위치로 저장해요. 그리고 **`휴대폰용 애니메이션 파일 (zip)`**: imgcut, mamodel, maanim_*, sprite.png를 zip 하나로 저장해요. 이걸 휴대폰의 **냥코 애니 GIF 공방** 페이지(https://claude.ai/artifact/4rqxCW23cx5PKEnz43RhfK)에 넣으면 휴대폰에서 바로 몸 GIF와 빛 GIF를 만들 수 있어요(소스: `StageVS/tools/web/`).\n\n### 받는 법\nBCU 실행기를 켜면 자동으로 받아요. VS 모드 카드를 골라서 실행하세요.\n",
+  "published_at": "2026-11-22T05:25:08Z",
+  "commit": "7a1e5a4d8578678cee31da9993b3552b739fc372",
   "assets": [
     {
       "name": "BCU-Launcher-setup.zip",
       "size": 51808,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/BCU-Launcher-setup.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/BCU-Launcher-setup.zip"
     },
     {
       "name": "BCU-Launcher.bat",
       "size": 797,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/BCU-Launcher.bat"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/BCU-Launcher.bat"
     },
     {
       "name": "BCU-Launcher.jar",
       "size": 53175,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/BCU-Launcher.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/BCU-Launcher.jar"
     },
     {
       "name": "BCU-Normal-0-5-8-9.jar",
       "size": 2009517,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/BCU-Normal-0-5-8-9.jar"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/BCU-Normal-0-5-8-9.jar"
     },
     {
       "name": "BCU-VS-0-5-8-9.jar",
-      "size": 2322028,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/BCU-VS-0-5-8-9.jar"
+      "size": 2325598,
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/BCU-VS-0-5-8-9.jar"
     },
     {
       "name": "manifest.json",
       "size": 906,
-      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/d25f595aeafb0a60e6145f97e49d85633ccfaa86/releases/0.98.5/manifest.json"
+      "browser_download_url": "https://raw.githubusercontent.com/yafoo0217-byte/BCU-Release/7a1e5a4d8578678cee31da9993b3552b739fc372/releases/0.98.6/manifest.json"
     }
   ]
 }
